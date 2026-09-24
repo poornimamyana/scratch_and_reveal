@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Kallem Family Pregnancy Reveal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>💛 A Little Surprise from the Kallem Family 💛</h2>
+    <p class="subtitle">Scratch the golden card to reveal our exciting news!</p>
+
+    <div id="card">
+
+        <!-- Hidden Image -->
+        <div class="reveal-content">
+            <img src="yodha.jpg" alt="Yodha Big Sister">
+
+            <h1>✨ I'M GOING TO BE A BIG SISTER ✨</h1>
+            <h3>Baby Kallem is on the way 👶</h3>
+            <p>Love, Yodha 💕</p>
+        </div>
+
+        <!-- Scratch Layer -->
+        <canvas id="scratchCanvas"></canvas>
+
+    </div>
+
+    <button id="resetBtn">Scratch Again</button>
+
+    <div id="finishedMessage" class="hidden">
+        🎉 Surprise! Baby #2 is joining our family! 🎉
+    </div>
+
+</div>
+
+<audio id="celebrateSound" src="confetti.mp3"></audio>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
